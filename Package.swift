@@ -10,7 +10,8 @@ let package = Package(
         .library(name: "Leaf", targets: ["Leaf"]),
     ],
     dependencies: [
-        .package(name: "leaf-kit", url: "https://github.com/macwish/leaf-kit", .branch("4.0.0-tau.1.1")),
+        .package(url: "https://github.com/macwish/leaf-kit", .branch("4.0.0-tau.1.1")),
+        
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
     ],
     targets: [
